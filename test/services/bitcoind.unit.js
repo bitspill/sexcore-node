@@ -6,7 +6,7 @@ var path = require('path');
 var EventEmitter = require('events').EventEmitter;
 var should = require('chai').should();
 var crypto = require('crypto');
-var bitcore = require('litecore-lib');
+var bitcore = require('sexcore-lib');
 var _ = bitcore.deps._;
 var sinon = require('sinon');
 var proxyquire = require('proxyquire');
@@ -407,7 +407,7 @@ describe('Bitcoin Service', function() {
       var config = {
         node: {
           network: bitcore.Networks.testnet,
-          configPath: '/tmp/.bitcore/litecore-node.json'
+          configPath: '/tmp/.bitcore/sexcore-node.json'
         },
         spawn: {
           datadir: './data',
@@ -769,7 +769,7 @@ describe('Bitcoin Service', function() {
         }
       };
       var bitcoind = new BitcoinService(config);
-      bitcoind._getDefaultConf().rpcport.should.equal(9332);
+      bitcoind._getDefaultConf().rpcport.should.equal(9560);
     });
     it('will get default rpc port for testnet', function() {
       var config = {
@@ -782,7 +782,7 @@ describe('Bitcoin Service', function() {
         }
       };
       var bitcoind = new BitcoinService(config);
-      bitcoind._getDefaultConf().rpcport.should.equal(19332);
+      bitcoind._getDefaultConf().rpcport.should.equal(19560);
     });
     it('will get default rpc port for regtest', function() {
       bitcore.Networks.enableRegtest();
@@ -796,7 +796,7 @@ describe('Bitcoin Service', function() {
         }
       };
       var bitcoind = new BitcoinService(config);
-      bitcoind._getDefaultConf().rpcport.should.equal(19332);
+      bitcoind._getDefaultConf().rpcport.should.equal(19560);
     });
   });
 
