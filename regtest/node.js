@@ -9,13 +9,13 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('litecore-lib');
+var bitcore = require('sexcore-lib');
 var rimraf = require('rimraf');
 var node;
 
 var should = chai.should();
 
-var BitcoinRPC = require('litecoind-rpc');
+var BitcoinRPC = require('sexcoind-rpc');
 var index = require('..');
 var Transaction = bitcore.Transaction;
 var BitcoreNode = index.Node;
@@ -53,7 +53,7 @@ describe('Node Functionality', function() {
             config: {
               spawn: {
                 datadir: datadir,
-                exec: path.resolve(__dirname, '../bin/litecoind')
+                exec: path.resolve(__dirname, '../bin/sexcoind')
               }
             }
           }
