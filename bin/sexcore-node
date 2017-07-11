@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var sexcore = require('../lib/cli/bitcore');
+sexcore();
