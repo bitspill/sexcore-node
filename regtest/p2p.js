@@ -82,7 +82,7 @@ describe('P2P Functionality', function() {
 
         peer = new Peer({
           host: '127.0.0.1',
-          port: regtestNetwork.port, // regtestNetwork will provide the port: 19444
+         // port: regtestNetwork.port, // regtestNetwork will provide the port: 19444
           network: regtestNetwork
         });
 
