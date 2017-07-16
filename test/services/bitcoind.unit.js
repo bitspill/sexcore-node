@@ -3317,37 +3317,37 @@ describe('Bitcoin Service', function() {
   describe('#_getAddressStrings', function() {
     it('will get address strings from bitcore addresses', function() {
       var addresses = [
-        bitcore.Address('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR'),
+        bitcore.Address('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K'),
         bitcore.Address('3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou'),
       ];
       var bitcoind = new BitcoinService(baseConfig);
       var strings = bitcoind._getAddressStrings(addresses);
-      strings[0].should.equal('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR');
+      strings[0].should.equal('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K');
       strings[1].should.equal('3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou');
     });
     it('will get address strings from strings', function() {
       var addresses = [
-        'LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR',
+        'SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K',
         '3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou',
       ];
       var bitcoind = new BitcoinService(baseConfig);
       var strings = bitcoind._getAddressStrings(addresses);
-      strings[0].should.equal('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR');
+      strings[0].should.equal('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K');
       strings[1].should.equal('3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou');
     });
     it('will get address strings from mixture of types', function() {
       var addresses = [
-        bitcore.Address('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR'),
+        bitcore.Address('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K'),
         '3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou',
       ];
       var bitcoind = new BitcoinService(baseConfig);
       var strings = bitcoind._getAddressStrings(addresses);
-      strings[0].should.equal('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR');
+      strings[0].should.equal('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K');
       strings[1].should.equal('3CMNFxN1oHBc4R1EpboAL5yzHGgE611Xou');
     });
     it('will give error with unknown', function() {
       var addresses = [
-        bitcore.Address('LUVKqDPPVBQcjUwt1S21Pa5ybgPaDEZhXR'),
+        bitcore.Address('SFEPSjNzNDmN6UQubit8XV4jEuDhKPF54K'),
         0,
       ];
       var bitcoind = new BitcoinService(baseConfig);
