@@ -29,7 +29,7 @@ describe('#defaultConfig', function() {
       fs: {
         existsSync: sinon.stub().returns(false),
         writeFileSync: function(path, data) {
-          path.should.equal(process.env.HOME + '/.sexcoin/sexcoin-node.json');
+          path.should.equal(process.env.HOME + '/.sexcoin/sexcore-node.json');
           data.should.equal(config);
         },
         readFileSync: function() {
