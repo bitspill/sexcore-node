@@ -1088,7 +1088,7 @@ describe('Bitcoin Service', function() {
   describe('#_getAddressesFromTransaction', function() {
     it('will get results using bitcore.Transaction', function() {
       var bitcoind = new BitcoinService(baseConfig);
-      var wif = 'T872No3VhULcqFF6Sv1PSCRXZKVBPYWG2UtG4ECFK7nzaUUU8Kuj';
+      var wif = 'VBWq967P7pFgrHcy3FxJFJz2QVZRwbYLBZkxjd8M6nw5u2h9izGP';
       var privkey = bitcore.PrivateKey.fromWIF(wif);
       var inputAddress = privkey.toAddress(bitcore.Networks.testnet);
       var outputAddress = bitcore.Address('2N2JD6wb56AfK4tfmM6PwdVmoYk2dCKf4Br');
