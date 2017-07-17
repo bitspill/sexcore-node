@@ -14,7 +14,7 @@ addons:
 node_js:
   - "v4"
 script:
-  - npm run regtest
+#  - npm run regtest
   - npm run test
   - npm run jshint
 after_success:
