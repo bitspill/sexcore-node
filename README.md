@@ -1,9 +1,9 @@
 Litecore Node
 ============
 
-[![NPM Package](https://img.shields.io/npm/v/litecore-node.svg?style=flat-square)](https://www.npmjs.org/package/litecore-node)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-node)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-node.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-node)
+[![NPM Package](https://img.shields.io/npm/v/sexcore-node.svg?style=flat-square)](https://www.npmjs.org/package/sexcore-node)
+[![Build Status](https://img.shields.io/travis/sxcmarket/sexcore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/sxcmarket/sexcore-node)
+[![Coverage Status](https://img.shields.io/coveralls/sxcmarket/sexcore-node.svg?style=flat-square)](https://coveralls.io/r/sxcmarket/sexcore-node)
 
 A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/litecoin-project/litecore-litecoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
@@ -62,7 +62,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/sxcmarket/sexcore-node/blob/master/LICENSE).
 
 Copyright 2016 The Litecoin Core Developers
 
