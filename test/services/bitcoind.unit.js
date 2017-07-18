@@ -2391,7 +2391,7 @@ describe('Bitcoin Service', function() {
           address: 'SApJC3EEL43tyZzoFJpnqc13tit4ZumwCm',
           outputIndex: 1,
           satoshis: 400000,
-          script: '76a914809dc14496f99b6deb722cf46d89d22f4beb8efd88ac',
+          script: '76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac',
           timestamp: 1461342954813,
           txid: 'f71bccef3a8f5609c7f016154922adbfe0194a96fb17a798c24077c18d0a9345'
         },
@@ -2399,7 +2399,7 @@ describe('Bitcoin Service', function() {
           address: 'SApJC3EEL43tyZzoFJpnqc13tit4ZumwCm',
           outputIndex: 0,
           satoshis: 100000,
-          script: '76a914809dc14496f99b6deb722cf46d89d22f4beb8efd88ac',
+          script: '76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac',
           timestamp: 1461342833133,
           txid: 'f637384e9f81f18767ea50e00bce58fc9848b6588a1130529eebba22a410155f'
         }
@@ -2523,7 +2523,7 @@ describe('Bitcoin Service', function() {
           satoshis: 100000,
           address: 'SApJC3EEL43tyZzoFJpnqc13tit4ZumwCm',
           index: 1,
-          script: '76a914809dc14496f99b6deb722cf46d89d22f4beb8efd88ac',
+          script: '76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac',
           timestamp: 1461342833133
         }
       ];
@@ -2658,7 +2658,7 @@ describe('Bitcoin Service', function() {
         utxos[0].address.should.equal(address);
         utxos[0].txid.should.equal('e9dcf22807db77ac0276b03cc2d3a8b03c4837db8ac6650501ef45af1c807cce');
         utxos[0].outputIndex.should.equal(1);
-        utxos[0].script.should.equal('76a914809dc14496f99b6deb722cf46d89d22f4beb8efd88ac');
+        utxos[0].script.should.equal('76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac');
         utxos[0].timestamp.should.equal(1461342833133);
         done();
       });
