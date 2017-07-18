@@ -2454,7 +2454,7 @@ describe('Bitcoin Service', function() {
           address: 'SApJC3EEL43tyZzoFJpnqc13tit4ZumwCm',
           txid: '46f24e0c274fc07708b781963576c4c5d5625d926dbb0a17fa865dcd9fe58ea0',
           outputIndex: 1,
-          script: '76a914f399b4b8894f1153b96fce29f05e6e116eb4c21788ac',
+          script: '76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac',
           satoshis: 7679241,
           height: 207111
         },
@@ -2462,7 +2462,7 @@ describe('Bitcoin Service', function() {
           address: 'SApJC3EEL43tyZzoFJpnqc13tit4ZumwCm',
           txid: '46f24e0c274fc07708b781963576c4c5d5625d926dbb0a17fa865dcd9fe58ea0',
           outputIndex: 2,
-          script: '76a914f399b4b8894f1153b96fce29f05e6e116eb4c21788ac',
+          script: '76a9148d116b2229f4a2386bd0acc59cae64e8b9b339ba88ac',
           satoshis: 7679241,
           height: 207111
         }
